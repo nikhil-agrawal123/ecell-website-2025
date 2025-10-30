@@ -1,0 +1,38 @@
+[
+  {
+    "name": "IIC Ranking ",
+    "desc": "For the second year in a row, IIIT Delhi has secured the prestigious 4-star rating in the Institutional Innovation Council (IIC) rankings by AICTE, the highest distinction awarded this year! This achievement cements IIITD`s position as a leading hub for innovation and entrepreneurship. With a year of remarkable events, pioneering initiatives by IIC, and the relentless efforts of E-Cell, the institute has continuously fostered a thriving ecosystem for cutting-edge research, startups, and industry collaborations. This recognition reflects the ingenuity, dedication, and forward-thinking mindset that drive IIIT Delhi`s commitment to excellence.",
+    "img": "/about/6.png",
+    "link": "https://iic.mic.gov.in/assets/html/index.html"
+  },
+  {
+    "name": "Eureka!",
+    "desc": "A national-level startup pitch competition offering mentorship and funding to promising ideas.",
+    "img": "/about/2.png",
+    "link": "/eureka"
+  },
+  {
+    "name": "Illuminate",
+    "desc": "Workshop series empowering students with entrepreneurial insights from successful founders.",
+    "img": "/about/3.png",
+    "link": "/illuminate"
+  },
+  {
+    "name": "Startup Bootcamp",
+    "desc": "An intensive sprint that converts early ideas into real MVPs with expert mentorship.",
+    "img": "/about/4.png",
+    "link": "/bootcamp"
+  },
+  {
+    "name": "Investor Connect",
+    "desc": "Bringing early-stage founders face-to-face with VCs and angel investors for growth.",
+    "img": "/about/5.png",
+    "link": "/investors"
+  },
+  {
+    "name": "Hackathons",
+    "desc": "High-energy sprints for innovators to build tech that solves real-world problems.",
+    "img": "/about/6.png",
+    "link": "/hackathons"
+  }
+]

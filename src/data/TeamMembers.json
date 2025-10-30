@@ -1,0 +1,113 @@
+{
+  "2025": [
+  {
+    "name": "Akansha",
+    "role": "IIC Lead",
+    "img": "/team/1.jpg",
+    "linkedin": "https://linkedin.com/in/aarav",
+    "email": "aarav@ecell.iiitd.ac.in"
+  },
+  {
+    "name": "Areeb",
+    "role": "Web Dev Lead",
+    "img": "/team/2.jpg",
+    "linkedin": "https://linkedin.com/in/ishita",
+    "email": "ishita@ecell.iiitd.ac.in"
+  },
+  {
+    "name": "Dhimat Kaul",
+    "role": "Events Lead",
+    "img": "/team/3.jpg",
+    "linkedin": "https://linkedin.com/in/karan",
+    "email": "karan@ecell.iiitd.ac.in"
+  },
+  {
+    "name": "Kanav Meena",
+    "role": "CFO",
+    "img": "/team/4.jpg",
+    "linkedin": "https://linkedin.com/in/nisha",
+    "email": "nisha@ecell.iiitd.ac.in"
+  },
+  {
+    "name": "Lakshay",
+    "role": "Uplift Lead",
+    "img": "/team/5.jpg",
+    "linkedin": "https://linkedin.com/in/tanmay",
+    "instagram": "https://instagram.com/tanmay",
+    "email": "tanmay@ecell.iiitd.ac.in"
+  },
+  {
+    "name": "Nikhil Agrawal",
+    "role": "Dev Lead",
+    "img": "/team/6.jpg",
+    "linkedin": "https://linkedin.com/in/priya",
+    "instagram": "https://instagram.com/priya",
+    "email": "priya@ecell.iiitd.ac.in"
+  },
+  {
+    "name": "Prajil",
+    "role": "COO",
+    "img": "/team/7.jpg",
+    "linkedin": "https://linkedin.com/in/prajil",
+    "email": "prajil@ecell.iiitd.ac.in"
+  },
+  {
+    "name": "Prerak Tanwar",
+    "role": "Sponsorship Lead",
+    "img": "/team/8.jpg",
+    "linkedin": "https://linkedin.com/in/rishabh",
+    "email": "rishabh@ecell.iiitd.ac.in"
+  },
+  {
+    "name": "Saksham Verma",
+    "role": "Sponsorship Lead",
+    "img": "/team/9.jpg",
+    "linkedin": "https://linkedin.com/in/yash",
+    "email": "yash@ecell.iiitd.ac.in"
+  },
+  {
+    "name": "Somil Gupta",
+    "role": "Sponsorship Lead",
+    "img": "/team/10.png",
+    "linkedin": "https://linkedin.com/in/akansha",
+    "email": "akansha@ecell.iiitd.ac.in"
+  }
+]
+,
+  "2024": [
+     
+  {
+    "name": "Karan Arora",
+    "role": "Tech Head",
+    "img": "/team/12.png",
+    "linkedin": "https://linkedin.com/in/karan",
+    "instagram": "https://instagram.com/karan",
+    "email": "karan@ecell.iiitd.ac.in"
+  },
+  {
+    "name": "Nisha Rathi",
+    "role": "Design Lead",
+    "img": "/team/9.png",
+    "linkedin": "https://linkedin.com/in/nisha",
+    "instagram": "https://instagram.com/nisha",
+    "email": "nisha@ecell.iiitd.ac.in"
+  },
+  {
+    "name": "Tanmay Jha",
+    "role": "Events Lead",
+    "img": "/team/8.png",
+    "linkedin": "https://linkedin.com/in/tanmay",
+    "instagram": "https://instagram.com/tanmay",
+    "email": "tanmay@ecell.iiitd.ac.in"
+  },
+  {
+    "name": "Priya Shah",
+    "role": "Outreach Lead",
+    "img": "/team/7.png",
+    "linkedin": "https://linkedin.com/in/priya",
+    "instagram": "https://instagram.com/priya",
+    "email": "priya@ecell.iiitd.ac.in"
+  }
+
+  ]
+}

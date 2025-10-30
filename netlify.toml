@@ -1,0 +1,11 @@
+# Netlify configuration for Next.js App Router
+[build]
+  # Use the project's build script. Netlify will install dependencies automatically.
+  command = "yarn build"
+  # When using the official Netlify Next.js plugin the publish directory is handled by the plugin.
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Optional: large sites may raise build memory issues. Increase during Netlify setup if needed.

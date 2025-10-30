@@ -1,0 +1,42 @@
+[
+  {
+    "id": "Founders-talk",
+    "name": "Founders Talk",
+    "desc": "Real stories from startup founders about their struggles, lessons, and journey to success.",
+    "longDesc": "No mountain can be scaled within a day. Founders Talk exposes budding entrepreneurs to the harsh realities of entrepreneurship, the initial hurdles faced, and the goals that fueled their perseverance. Organized by E-Cell, IIIT Delhi, this event is a source of raw, unfiltered wisdom from experienced startup founders who turned obstacles into opportunities. It aims to inspire students to embrace uncertainty and chase their vision fearlessly.",
+    "img": "/initiatives/founders-talk.png",
+    "link": "/founders-talk"
+  },
+  {
+    "id": "Pitch-cafe",
+    "name": "Pitch Cafe",
+    "desc": "Pitch real-world solutions creatively and compete with your entrepreneurial insight.",
+    "longDesc": "Pitch Cafe is an intellectually stimulating event where participants identify real-life problems and build creative, feasible solutions. Hosted by E-Cell, IIIT Delhi, it tests critical thinking, business acumen, and communication skills. Participants learn to weigh the pros and cons of their ideas and deliver compelling pitches. It`s more than just competition—it`s a practice ground for real-world entrepreneurial challenges faced by today`s innovators.",
+    "img": "/initiatives/pitch-cafe.jpg",
+    "link": "/pitch-cafe"
+  },
+  {
+    "id": "ideathon",
+    "name": "Ideathon",
+    "desc": "Innovate solutions for real-world problems like COVID and beyond.",
+    "longDesc": "Every crisis is an opportunity in disguise. Ideathon is a problem-solving sprint organized by E-Cell, IIIT Delhi, where participants develop innovative, impactful solutions to modern crises, including those exacerbated by COVID. It encourages out-of-the-box thinking and provides a platform to transform social or technological gaps into viable startup ideas. This initiative strengthens entrepreneurial empathy, design thinking, and creative resilience among students.",
+    "img": "/initiatives/ideathon.png",
+    "link": "/ideathon"
+  },
+  {
+    "id": "open-house",
+    "name": "Open House",
+    "desc": "Get expert answers to all your startup queries—from funding to legal rights.",
+    "longDesc": "Open House is a one-of-a-kind initiative by E-Cell, IIIT Delhi, providing aspiring entrepreneurs direct access to a panel of experts. Topics range from funding and intellectual property to product-market fit and regulatory compliance. Whether you`re an early-stage founder or just exploring, this forum allows students to ask burning questions and get personalized advice. It`s designed to create a transparent and inclusive support ecosystem within the IIIT Delhi startup community.",
+    "img": "/initiatives/open-house.jpg",
+    "link": "/open-house"
+  },
+  {
+    "id": "snackchat",
+    "name": "Snack Chat",
+    "desc": "Casual meetups to brainstorm impactful ideas in the world of entrepreneurship.",
+    "longDesc": "Snack Chat is an informal discussion series hosted offline by E-Cell, IIIT Delhi. It brings together students with a passion for innovation to chat over snacks and brainstorm actionable ideas. Topics range from business ethics and emerging trends to “invisible” problems that need disruption. This initiative promotes community-led ideation and fosters a strong culture of peer learning and collaborative growth within the IIIT Delhi entrepreneurial ecosystem.",
+    "img": "/initiatives/snackchat.png",
+    "link": "/snackchat"
+  }
+]

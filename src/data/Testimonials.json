@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Ishita Sharma",
+    "role": "Founder, StartupX",
+    "image": "/testimonials/1.png",
+    "text": "E-Cell helped me go from pitch to product. The support, sessions, and peer network are unmatched."
+  },
+  {
+    "name": "Raghav Singh",
+    "role": "testimonials, IIITD",
+    "image": "/art/2.png",
+    "text": "Being part of E-Cell shaped my journey as a tech entrepreneur. It`s more than just a club—it`s a movement."
+  },
+  {
+    "name": "Sanya Mehta",
+    "role": "Investor, AngelHub",
+    "image": "/testimonials/3.png",
+    "text": "Young talent, raw ideas, and amazing execution. IIITD`s E-Cell is where innovation gets real wings."
+  }
+]
