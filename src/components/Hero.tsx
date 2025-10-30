@@ -54,6 +54,22 @@ const Hero = () => {
         <p className="mx-auto mt-4 max-w-5xl text-center  text-base font-normal text-neutral-300">
         We&apos;re the driving force behind IIITD&apos;s startup spirit, crafting ideas, launching ventures, and shaping tomorrow&apos;s leaders. Whether you&apos;re a founder, a learner, or just curious, this is where your entrepreneurial journey begins.
         </p>
+        
+        {/* Action Buttons */}
+        <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center items-center">
+          <a 
+            href="/submit-ideas"
+            className="px-8 py-3 bg-gradient-to-r from-purple-500 via-violet-500 to-pink-500 text-white font-semibold rounded-lg hover:scale-105 transform transition-all duration-300 shadow-lg hover:shadow-xl"
+          >
+            Submit Ideas
+          </a>
+          <a 
+            href="#events"
+            className="px-8 py-3 border-2 border-purple-500 text-purple-300 font-semibold rounded-lg hover:bg-purple-500 hover:text-white transform transition-all duration-300 shadow-lg hover:shadow-xl"
+          >
+            View Events
+          </a>
+        </div>
       </div>
                     
         {/* </div> */}
