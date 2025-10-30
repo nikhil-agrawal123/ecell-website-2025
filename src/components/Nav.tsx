@@ -45,7 +45,7 @@ function Navbar({ className }: { className?: string }) {
               <HoveredLink href="/gallery">Gallery</HoveredLink>
               <HoveredLink href="/Upcomming Events">Upcomming Events</HoveredLink>
               <HoveredLink href="/contact">Contact Us</HoveredLink>
- 
+              <HoveredLink href="/submit-ideas">Submit Ideas</HoveredLink> 
          
               </div>
             </MenuItem>
@@ -59,6 +59,15 @@ function Navbar({ className }: { className?: string }) {
           <HoveredLink href="/gallery">Gallery</HoveredLink>
           <HoveredLink href="/Upcomming Events">Events</HoveredLink>
           <HoveredLink href="/contact">Contact Us</HoveredLink>
+                      
+            {/* Submit Ideas Button */}
+            <Link 
+              href="/submit-ideas"
+              className="px-4 py-2 bg-gradient-to-r from-purple-500 via-violet-500 to-pink-500 text-white font-semibold rounded-lg hover:scale-105 transform transition-all duration-300 shadow-lg hover:shadow-xl text-sm"
+            >
+              Submit Ideas
+            </Link>
+
            </div>
         </div> 
       </Menu>
