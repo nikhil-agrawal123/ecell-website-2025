@@ -1,0 +1,172 @@
+{
+  "upcomingEvents": [
+    {
+      "id": "esummit-2025",
+      "title": "E-Summit 2025",
+      "date": "2025-02-15",
+      "time": "09:00 AM",
+      "location": "IIIT Delhi Campus",
+      "description": "The biggest entrepreneurship summit of the year featuring renowned speakers, startup showcases, and networking opportunities.",
+      "longDescription": "Join us for the most anticipated entrepreneurship event of 2025! E-Summit brings together industry leaders, successful entrepreneurs, investors, and aspiring founders under one roof. Experience inspiring keynotes, interactive panel discussions, startup pitch competitions, and extensive networking opportunities.",
+      "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=400&h=250&fit=crop&crop=center",
+      "category": "Summit",
+      "registrationLink": "/register/esummit-2025",
+      "featured": true,
+      "speakers": ["Ritesh Agarwal", "Bhavish Aggarwal", "Falguni Nayar"],
+      "tags": ["Entrepreneurship", "Networking", "Startups", "Innovation"]
+    },
+    {
+      "id": "fintech-hackathon-2025",
+      "title": "Fintech Innovation Hackathon",
+      "date": "2025-01-20",
+      "time": "10:00 AM",
+      "location": "Tech Hub, IIIT Delhi",
+      "description": "48-hour hackathon focused on building innovative fintech solutions for emerging market challenges.",
+      "longDescription": "Dive into the world of financial technology and create groundbreaking solutions that can transform how people interact with money. This intensive hackathon challenges participants to develop innovative fintech products addressing real-world problems in digital payments, lending, insurance, and financial inclusion.",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop&crop=center",
+      "category": "Hackathon",
+      "registrationLink": "/register/fintech-hackathon",
+      "featured": false,
+      "prize": "₹1,50,000",
+      "teamSize": "2-4 members",
+      "tags": ["Fintech", "Blockchain", "AI", "Mobile Development"]
+    },
+    {
+      "id": "pitch-deck-masterclass",
+      "title": "Pitch Deck Masterclass",
+      "date": "2025-01-10",
+      "time": "02:00 PM",
+      "location": "Auditorium, IIIT Delhi",
+      "description": "Learn the art of creating compelling pitch decks from successful entrepreneurs and VCs.",
+      "longDescription": "Master the essential skill of storytelling through pitch decks. This comprehensive session covers everything from structuring your narrative to designing visually appealing slides that capture investor attention. Learn from industry experts who have raised millions in funding.",
+      "image": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=400&h=250&fit=crop&crop=center",
+      "category": "Workshop",
+      "registrationLink": "/register/pitch-deck-masterclass",
+      "featured": false,
+      "duration": "3 hours",
+      "tags": ["Pitch Deck", "Fundraising", "Presentation Skills", "Storytelling"]
+    }
+  ],
+  "workshops": [
+    {
+      "id": "lean-startup-methodology",
+      "title": "Lean Startup Methodology Workshop",
+      "date": "2025-01-25",
+      "time": "11:00 AM",
+      "location": "Innovation Lab, IIIT Delhi",
+      "description": "Hands-on workshop on building products using lean startup principles and MVP development.",
+      "longDescription": "Learn the proven methodology that has helped thousands of startups build successful products. This interactive workshop covers the Build-Measure-Learn cycle, customer development, and rapid prototyping techniques that minimize risk and maximize learning.",
+      "image": "https://images.unsplash.com/photo-1553028826-f4804a6dba3b?w=400&h=250&fit=crop&crop=center",
+      "instructor": "Priya Sharma",
+      "instructorBio": "Serial entrepreneur and startup mentor with 3 successful exits",
+      "level": "Beginner to Intermediate",
+      "duration": "6 hours",
+      "maxParticipants": 50,
+      "registrationLink": "/register/lean-startup-workshop",
+      "materials": ["Laptop", "Notebook", "Pen"],
+      "tags": ["Lean Startup", "MVP", "Product Development", "Customer Validation"]
+    },
+    {
+      "id": "digital-marketing-for-startups",
+      "title": "Digital Marketing for Startups",
+      "date": "2025-02-05",
+      "time": "02:30 PM",
+      "location": "Media Lab, IIIT Delhi",
+      "description": "Comprehensive guide to digital marketing strategies specifically tailored for early-stage startups.",
+      "longDescription": "Discover cost-effective digital marketing strategies that startups can implement with limited budgets. Cover social media marketing, content strategy, SEO basics, email marketing, and growth hacking techniques that have proven successful for early-stage companies.",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop&crop=center",
+      "instructor": "Rahul Gupta",
+      "instructorBio": "Growth Marketing Expert with 8+ years helping startups scale",
+      "level": "All Levels",
+      "duration": "4 hours",
+      "maxParticipants": 75,
+      "registrationLink": "/register/digital-marketing-workshop",
+      "materials": ["Laptop", "Social Media Accounts"],
+      "tags": ["Digital Marketing", "Growth Hacking", "Social Media", "Content Strategy"]
+    },
+    {
+      "id": "funding-and-investment-basics",
+      "title": "Startup Funding & Investment Basics",
+      "date": "2025-02-12",
+      "time": "10:00 AM",
+      "location": "Conference Room A, IIIT Delhi",
+      "description": "Understanding different funding stages, investor expectations, and term sheet negotiations.",
+      "longDescription": "Navigate the complex world of startup funding with confidence. This workshop breaks down different funding stages, from bootstrapping to Series A and beyond. Learn what investors look for, how to prepare for funding rounds, and understand key terms in investment agreements.",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=250&fit=crop&crop=center",
+      "instructor": "Anjali Mehta",
+      "instructorBio": "Former VC Partner, currently mentoring 20+ startups",
+      "level": "Intermediate",
+      "duration": "5 hours",
+      "maxParticipants": 40,
+      "registrationLink": "/register/funding-workshop",
+      "materials": ["Business Plan (if available)", "Notebook"],
+      "tags": ["Funding", "Investment", "Venture Capital", "Angel Investors"]
+    }
+  ],
+  "completedEvents": [
+    {
+      "id": "esummit-2024",
+      "title": "E-Summit 2024",
+      "date": "2024-02-10",
+      "location": "IIIT Delhi Campus",
+      "description": "Our flagship entrepreneurship summit featuring 15+ speakers and 500+ attendees.",
+      "image": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=400&h=250&fit=crop&crop=center",
+      "attendees": 500,
+      "speakers": 15,
+      "startups": 25,
+      "highlights": [
+        "Keynote by Kunal Shah (CRED Founder)",
+        "Startup Pitch Competition with ₹2L prize pool",
+        "Investor networking session",
+        "Exhibition by 25 promising startups"
+      ],
+      "gallery": [
+        "/gallery/esummit-2024-1.jpg",
+        "/gallery/esummit-2024-2.jpg",
+        "/gallery/esummit-2024-3.jpg"
+      ],
+      "tags": ["Summit", "Networking", "Startups"]
+    },
+    {
+      "id": "ai-hackathon-2024",
+      "title": "AI Innovation Challenge 2024",
+      "date": "2024-09-15",
+      "location": "IIIT Delhi Tech Hub",
+      "description": "36-hour AI hackathon with focus on solving real-world problems using artificial intelligence.",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&h=250&fit=crop&crop=center",
+      "participants": 120,
+      "teams": 30,
+      "prize": "₹1,00,000",
+      "highlights": [
+        "30 teams competed for 36 hours straight",
+        "Winners developed an AI-powered healthcare solution",
+        "Mentorship from industry AI experts",
+        "Partnerships with leading tech companies"
+      ],
+      "winners": {
+        "first": "HealthAI - AI-powered diagnosis assistant",
+        "second": "EcoSmart - Environmental monitoring system",
+        "third": "EduBot - Personalized learning assistant"
+      },
+      "tags": ["AI", "Hackathon", "Innovation", "Healthcare"]
+    },
+    {
+      "id": "founders-meetup-q4-2024",
+      "title": "Founders Meetup Q4 2024",
+      "date": "2024-11-20",
+      "location": "IIIT Delhi Cafeteria",
+      "description": "Casual networking session bringing together student entrepreneurs and industry founders.",
+      "image": "https://images.unsplash.com/photo-1511578314322-379afb476865?w=400&h=250&fit=crop&crop=center",
+      "attendees": 85,
+      "founders": 12,
+      "highlights": [
+        "Panel discussion on 'Failing Fast and Learning Faster'",
+        "One-on-one mentorship sessions",
+        "Startup showcase by student entrepreneurs",
+        "Networking over coffee and snacks"
+      ],
+      "feedback": "4.8/5 average rating from participants",
+      "tags": ["Networking", "Mentorship", "Community"]
+    }
+  ]
+}
