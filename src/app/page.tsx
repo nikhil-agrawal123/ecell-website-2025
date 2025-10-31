@@ -13,7 +13,7 @@ import ResourcesShowcaseCard from '@/components/ResourcesShowcaseCard'
 
 export default function Home() {
   return (
-    <div className='bg-black '>
+    <div className='bg-black'>
       {/* bg-neutral-950 */}
     
    <Hero/>

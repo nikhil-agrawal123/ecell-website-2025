@@ -34,12 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning> 
       <body className={inter.className}  >
-      <div className="relative w-full">
-        
-        <div className="absolute w-full top-0 left-0 z-50">
-          <Nav />
-        </div>
-      </div>
+        <Nav />
         
       <DelayedLoader>
         {children}
