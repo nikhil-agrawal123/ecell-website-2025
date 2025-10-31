@@ -43,7 +43,8 @@ function Navbar({ className }: { className?: string }) {
               <HoveredLink href="/team">Our Team</HoveredLink>
               <HoveredLink href="/initiatives">Initiatives</HoveredLink>
               <HoveredLink href="/gallery">Gallery</HoveredLink>
-              <HoveredLink href="/upcoming-events">Upcoming Events</HoveredLink>
+              <HoveredLink href="/planned-events">Planned Events</HoveredLink>
+              <HoveredLink href="/calendar">Calendar</HoveredLink>
               <HoveredLink href="/contact">Contact Us</HoveredLink>
               <HoveredLink href="/submit-ideas">Submit Ideas</HoveredLink> 
          
@@ -57,7 +58,8 @@ function Navbar({ className }: { className?: string }) {
           <HoveredLink href="/team">Our Team</HoveredLink>
           {/* <HoveredLink href="/blog">Blog</HoveredLink> */}
           <HoveredLink href="/gallery">Gallery</HoveredLink>
-          <HoveredLink href="/upcomming-events">Events</HoveredLink>
+          <HoveredLink href="/planned-events">Planned Events</HoveredLink>
+          <HoveredLink href="/calendar">Calendar</HoveredLink>
           <HoveredLink href="/contact">Contact Us</HoveredLink>
                       
             {/* Submit Ideas Button */}
