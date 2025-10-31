@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export function Nav() {
   return (
-    <div className="w-full">
+    <div className="w-full fixed top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur-md">
       <Navbar />
     </div>
   );
@@ -43,7 +43,7 @@ function Navbar({ className }: { className?: string }) {
               <HoveredLink href="/team">Our Team</HoveredLink>
               <HoveredLink href="/initiatives">Initiatives</HoveredLink>
               <HoveredLink href="/gallery">Gallery</HoveredLink>
-              <HoveredLink href="/Upcomming Events">Upcomming Events</HoveredLink>
+              <HoveredLink href="/upcoming-events">Upcoming Events</HoveredLink>
               <HoveredLink href="/contact">Contact Us</HoveredLink>
               <HoveredLink href="/submit-ideas">Submit Ideas</HoveredLink> 
          
@@ -57,15 +57,17 @@ function Navbar({ className }: { className?: string }) {
           <HoveredLink href="/team">Our Team</HoveredLink>
           {/* <HoveredLink href="/blog">Blog</HoveredLink> */}
           <HoveredLink href="/gallery">Gallery</HoveredLink>
-          <HoveredLink href="/Upcomming Events">Events</HoveredLink>
+          <HoveredLink href="/upcomming-events">Events</HoveredLink>
           <HoveredLink href="/contact">Contact Us</HoveredLink>
                       
             {/* Submit Ideas Button */}
-            <Link 
-              href="/submit-ideas"
-              className="px-4 py-2 bg-gradient-to-r from-purple-500 via-violet-500 to-pink-500 text-white font-semibold rounded-lg hover:scale-105 transform transition-all duration-300 shadow-lg hover:shadow-xl text-sm"
-            >
-              Submit Ideas
+            <Link href="/submit-ideas">
+              <button className="p-[3px] relative">
+                <div className="absolute inset-0 bg-gradient-to-r from-orange-500 via-orange-600 to-orange-400 rounded-full" />
+                <div className="px-6 py-1.5 bg-black rounded-full font-bold relative group transition duration-200 text-white hover:bg-transparent text-sm">
+                  Submit Ideas
+                </div>
+              </button>
             </Link>
 
            </div>
