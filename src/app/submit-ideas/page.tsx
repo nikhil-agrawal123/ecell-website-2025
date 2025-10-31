@@ -7,6 +7,7 @@ const SubmitIdeasPage = () => {
     name: '',
     email: '',
     phone: '',
+    department: '',
     ideaTitle: '',
     category: '',
     description: '',
@@ -42,6 +43,7 @@ const SubmitIdeasPage = () => {
         name: '',
         email: '',
         phone: '',
+        department: '',
         ideaTitle: '',
         category: '',
         description: '',
@@ -62,8 +64,15 @@ const SubmitIdeasPage = () => {
 
   return (
     <div className="min-h-screen bg-black text-white">
+      <style dangerouslySetInnerHTML={{
+        __html: `
+          footer {
+            display: none !important;
+          }
+        `
+      }} />
       {/* Header */}
-      <div className="relative pt-20 pb-12 bg-gradient-to-br from-purple-900/20 via-black to-pink-900/20">
+      <div className="relative pt-40 pb-12 bg-gradient-to-br from-purple-900/20 via-black to-pink-900/20">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-purple-400 via-violet-400 to-pink-400 bg-clip-text text-transparent mb-4">
             Submit Your Idea
@@ -106,6 +115,19 @@ const SubmitIdeasPage = () => {
                   value={formData.email}
                   onChange={handleInputChange}
                   required
+                  className="w-full px-4 py-3 bg-neutral-800 border border-neutral-700 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent text-white"
+                />
+              </div>
+              <div>
+                <label htmlFor="department" className="block text-sm font-medium text-neutral-300 mb-2">
+                  Department/ Branch
+                </label>
+                <input
+                  type="text"
+                  id="department"
+                  name="department"
+                  value={formData.department}
+                  onChange={handleInputChange}
                   className="w-full px-4 py-3 bg-neutral-800 border border-neutral-700 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent text-white"
                 />
               </div>
@@ -321,9 +343,12 @@ const SubmitIdeasPage = () => {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="px-12 py-4 bg-gradient-to-r from-purple-500 via-violet-500 to-pink-500 text-white font-semibold rounded-lg hover:scale-105 transform transition-all duration-300 shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
+              className="p-[3px] relative disabled:opacity-50 disabled:cursor-not-allowed transform transition-all duration-300 hover:scale-105 disabled:hover:scale-100"
             >
-              {isSubmitting ? 'Submitting...' : 'Submit Idea'}
+              <div className="absolute inset-0 bg-gradient-to-r from-orange-500 via-orange-600 to-orange-400 rounded-full" />
+              <div className="px-12 py-4 bg-transparent rounded-full font-bold relative group transition duration-200 text-white">
+                {isSubmitting ? 'Submitting...' : 'Submit Your Idea'}
+              </div>
             </button>
           </div>
 
