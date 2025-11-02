@@ -3,7 +3,7 @@
     {
       "id": "esummit-2025",
       "title": "E-Summit 2025",
-      "date": "2025-02-15",
+      "date": "2025-12-15",
       "time": "09:00 AM",
       "location": "IIIT Delhi Campus",
       "description": "The biggest entrepreneurship summit of the year featuring renowned speakers, startup showcases, and networking opportunities.",
@@ -18,7 +18,7 @@
     {
       "id": "fintech-hackathon-2025",
       "title": "Fintech Innovation Hackathon",
-      "date": "2025-01-20",
+      "date": "2025-11-20",
       "time": "10:00 AM",
       "location": "Tech Hub, IIIT Delhi",
       "description": "48-hour hackathon focused on building innovative fintech solutions for emerging market challenges.",
@@ -34,7 +34,7 @@
     {
       "id": "pitch-deck-masterclass",
       "title": "Pitch Deck Masterclass",
-      "date": "2025-01-10",
+      "date": "2025-11-10",
       "time": "02:00 PM",
       "location": "Auditorium, IIIT Delhi",
       "description": "Learn the art of creating compelling pitch decks from successful entrepreneurs and VCs.",
@@ -45,13 +45,59 @@
       "featured": false,
       "duration": "3 hours",
       "tags": ["Pitch Deck", "Fundraising", "Presentation Skills", "Storytelling"]
+    },
+    {
+      "id": "startup-showcase-today",
+      "title": "Student Startup Showcase",
+      "date": "2025-11-01",
+      "time": "04:00 PM",
+      "location": "Main Auditorium, IIIT Delhi",
+      "description": "Monthly showcase where student entrepreneurs present their innovative startups and get feedback from industry experts.",
+      "longDescription": "Join us for an inspiring evening where student entrepreneurs take the stage to present their groundbreaking startups. This monthly showcase provides a platform for students to share their innovative ideas, receive valuable feedback from industry experts, and connect with potential collaborators and investors.",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=250&fit=crop&crop=center",
+      "category": "Networking",
+      "registrationLink": "/register/startup-showcase",
+      "featured": true,
+      "duration": "2 hours",
+      "tags": ["Startups", "Networking", "Presentation", "Feedback"]
+    },
+    {
+      "id": "ai-workshop-nov",
+      "title": "AI for Entrepreneurs Workshop",
+      "date": "2025-11-05",
+      "time": "10:00 AM",
+      "location": "Tech Lab, IIIT Delhi",
+      "description": "Learn how to leverage AI tools and technologies to scale your startup and improve business operations.",
+      "longDescription": "Discover the power of artificial intelligence in entrepreneurship. This hands-on workshop covers practical AI applications for startups, from automating business processes to enhancing customer experience and making data-driven decisions.",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&h=250&fit=crop&crop=center",
+      "category": "Workshop",
+      "registrationLink": "/register/ai-workshop",
+      "featured": false,
+      "duration": "4 hours",
+      "maxParticipants": 40,
+      "tags": ["AI", "Technology", "Automation", "Business Intelligence"]
+    },
+    {
+      "id": "investor-meetup-nov",
+      "title": "Angel Investor Meetup",
+      "date": "2025-11-15",
+      "time": "06:00 PM",
+      "location": "Conference Hall, IIIT Delhi",
+      "description": "Exclusive networking session with angel investors and venture capitalists looking to fund promising startups.",
+      "longDescription": "Connect directly with angel investors and VCs who are actively seeking investment opportunities. This exclusive meetup provides startups with the chance to pitch their ideas, understand investor perspectives, and build valuable relationships in the funding ecosystem.",
+      "image": "https://images.unsplash.com/photo-1556484687-30636164638b?w=400&h=250&fit=crop&crop=center",
+      "category": "Networking",
+      "registrationLink": "/register/investor-meetup",
+      "featured": true,
+      "duration": "3 hours",
+      "tags": ["Investment", "Networking", "Angel Investors", "VC"]
     }
   ],
   "workshops": [
     {
       "id": "lean-startup-methodology",
       "title": "Lean Startup Methodology Workshop",
-      "date": "2025-01-25",
+      "date": "2025-11-25",
       "time": "11:00 AM",
       "location": "Innovation Lab, IIIT Delhi",
       "description": "Hands-on workshop on building products using lean startup principles and MVP development.",
@@ -69,7 +115,7 @@
     {
       "id": "digital-marketing-for-startups",
       "title": "Digital Marketing for Startups",
-      "date": "2025-02-05",
+      "date": "2025-12-05",
       "time": "02:30 PM",
       "location": "Media Lab, IIIT Delhi",
       "description": "Comprehensive guide to digital marketing strategies specifically tailored for early-stage startups.",
@@ -87,7 +133,7 @@
     {
       "id": "funding-and-investment-basics",
       "title": "Startup Funding & Investment Basics",
-      "date": "2025-02-12",
+      "date": "2025-12-12",
       "time": "10:00 AM",
       "location": "Conference Room A, IIIT Delhi",
       "description": "Understanding different funding stages, investor expectations, and term sheet negotiations.",
