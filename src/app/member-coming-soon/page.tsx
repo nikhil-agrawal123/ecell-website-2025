@@ -34,7 +34,7 @@ export default function MemberComingSoon() {
         <p className="text-gray-400 mb-8">
           Come back later, or if you know them, give them a nudge to update their details! 😄
         </p>
-
+{/* 
         <Link href="/team">
           <button className="p-[3px] relative">
             <div className="absolute inset-0 bg-gradient-to-r from-purple-400 via-pink-500 to-red-400 rounded-full" />
@@ -42,7 +42,7 @@ export default function MemberComingSoon() {
               Back to Team
             </div>
           </button>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
