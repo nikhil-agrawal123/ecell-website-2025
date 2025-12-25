@@ -8,8 +8,8 @@ export default function MemberComingSoonLayout({
 }) {
   useEffect(() => {
     // Hide Nav, Footer, and Loading animation on this page
-    const nav = document.querySelector('[class*="fixed top-0"]');
-    const footer = document.querySelector('footer');
+    const nav = document.querySelector('[class*="fixed top-0"]') as HTMLElement | null;
+    const footer = document.querySelector('footer') as HTMLElement | null;
     const loader = document.querySelector('[class*="DelayedLoader"]') || document.querySelector('div[style*="display"]')?.parentElement;
     
     if (nav) nav.style.display = 'none';
