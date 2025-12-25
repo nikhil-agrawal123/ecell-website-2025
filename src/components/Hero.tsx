@@ -64,7 +64,7 @@ const Hero = () => {
               </div>
             </button>
           </a>
-          <a href="#events">
+          <a href="/planned-events/">
             <button className="p-[3px] relative">
               <div className="absolute inset-0 bg-gradient-to-r from-purple-400 via-pink-500 to-red-400 rounded-full" />
               <div className="px-8 py-2 bg-black rounded-full font-bold relative group transition duration-200 text-white hover:bg-transparent">
