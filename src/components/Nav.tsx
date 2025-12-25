@@ -46,7 +46,6 @@ function Navbar({ className }: { className?: string }) {
               <HoveredLink href="/planned-events">Planned Events</HoveredLink>
               <HoveredLink href="/calendar">Calendar</HoveredLink>
               <HoveredLink href="/contact">Contact Us</HoveredLink>
-              <HoveredLink href="/submit-ideas">Submit Ideas</HoveredLink> 
          
               </div>
             </MenuItem>
@@ -61,16 +60,6 @@ function Navbar({ className }: { className?: string }) {
           <HoveredLink href="/planned-events">Planned Events</HoveredLink>
           <HoveredLink href="/calendar">Calendar</HoveredLink>
           <HoveredLink href="/contact">Contact Us</HoveredLink>
-                      
-            {/* Submit Ideas Button */}
-            <Link href="/submit-ideas">
-              <button className="p-[3px] relative">
-                <div className="absolute inset-0 bg-gradient-to-r from-orange-500 via-orange-600 to-orange-400 rounded-full" />
-                <div className="px-6 py-1.5 bg-black rounded-full font-bold relative group transition duration-200 text-white hover:bg-transparent text-sm">
-                  Submit Ideas
-                </div>
-              </button>
-            </Link>
 
            </div>
         </div> 

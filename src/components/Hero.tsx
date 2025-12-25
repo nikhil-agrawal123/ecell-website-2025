@@ -55,7 +55,7 @@ const Hero = () => {
         </p>
 
         {/* Action Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center items-center">
+        {/* <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center items-center">
           <a href="/submit-ideas">
             <button className="p-[3px] relative">
               <div className="absolute inset-0 bg-gradient-to-r from-orange-500 via-orange-600 to-orange-400 rounded-full" />
@@ -72,7 +72,7 @@ const Hero = () => {
               </div>
             </button>
           </a>
-        </div>
+        </div> */}
       </div>
 
       {/* </div> */}

@@ -90,31 +90,8 @@ function monthName(month: number) {
 }
 
 function generateRandomEvents(year: number, month: number): Events {
-  const daysInMonth = getDaysInMonth(year, month);
-  const eventCount = 8; // 8 event days per month
-  const events: Events = {};
-
-
-  for (let i = 0; i < eventCount; i++) {
-    const day = Math.floor(Math.random() * daysInMonth) + 1;
-    const count = Math.floor(Math.random() * 2) + 1; // 1-2 events per day
-    events[day] = events[day] || [];
-
-    for (let j = 0; j < count; j++) {
-      const type = Object.keys(EVENT_TYPES)[Math.floor(Math.random() * Object.keys(EVENT_TYPES).length)] as keyof typeof EVENT_TYPES;
-      const eventType = EVENT_TYPES[type];
-      const example = eventType.examples[Math.floor(Math.random() * eventType.examples.length)];
-      const hour = 9 + Math.floor(Math.random() * 8);
-
-      events[day].push({
-        title: example,
-        type: type,
-        time: `${hour}:${Math.random() > 0.5 ? '30' : '00'}`,
-        location: ["Room 102, Old Academic Block", "Seminar Hall", "E-Cell Space, Library Building", "Conference Room, R&D Block"][Math.floor(Math.random() * 4)]
-      });
-    }
-  }
-  return events;
+  // Returning empty events for now
+  return {};
 }
 
 const Calendar: React.FC = () => {
@@ -345,18 +322,24 @@ const Calendar: React.FC = () => {
 
           {view === 'list' ? (
             <div className="space-y-3">
-              {allEventsList.map((ev, i) => (
-                <div key={i} className={`${EVENT_TYPES[ev.type].color} p-3 rounded-lg shadow-lg`}>
-                  <div className="font-medium">{ev.title}</div>
-                  <div className="text-sm mt-1">{monthName(month)} {ev.day} • {ev.time}</div>
-                  <div className="text-xs mt-0.5 text-white/90">{ev.location}</div>
-                  {ev.description && (
-                    <div className="text-xs mt-2 text-white/80 border-t border-white/10 pt-2">
-                      {ev.description}
-                    </div>
-                  )}
+              {allEventsList.length > 0 ? (
+                allEventsList.map((ev, i) => (
+                  <div key={i} className={`${EVENT_TYPES[ev.type].color} p-3 rounded-lg shadow-lg`}>
+                    <div className="font-medium">{ev.title}</div>
+                    <div className="text-sm mt-1">{monthName(month)} {ev.day} • {ev.time}</div>
+                    <div className="text-xs mt-0.5 text-white/90">{ev.location}</div>
+                    {ev.description && (
+                      <div className="text-xs mt-2 text-white/80 border-t border-white/10 pt-2">
+                        {ev.description}
+                      </div>
+                    )}
+                  </div>
+                ))
+              ) : (
+                <div className="text-center py-12">
+                  <p className="text-white/50 text-lg">No events scheduled for the time being</p>
                 </div>
-              ))}
+              )}
             </div>
           ) : (
             <>

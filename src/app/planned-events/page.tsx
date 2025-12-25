@@ -77,7 +77,6 @@ export default Page
 
 // Tab Content Components
 const UpcomingEvents = () => {
-  const { upcomingEvents } = eventsData;
   
   return (
     <div className="space-y-8">
@@ -91,16 +90,15 @@ const UpcomingEvents = () => {
       </div>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {upcomingEvents.map((event) => (
-          <EventCard key={event.id} event={event} />
-        ))}
+        <PlaceholderCard text="TO BE" color="blue" />
+        <PlaceholderCard text="UPDATED" color="blue" />
+        <PlaceholderCard text="SOON" color="blue" />
       </div>
     </div>
   )
 }
 
 const Workshops = () => {
-  const { workshops } = eventsData;
   
   return (
     <div className="space-y-8">
@@ -114,16 +112,15 @@ const Workshops = () => {
       </div>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {workshops.map((workshop) => (
-          <WorkshopCard key={workshop.id} workshop={workshop} />
-        ))}
+        <PlaceholderCard text="TO BE" color="orange" />
+        <PlaceholderCard text="UPDATED" color="orange" />
+        <PlaceholderCard text="SOON" color="orange" />
       </div>
     </div>
   )
 }
 
 const CompletedEvents = () => {
-  const { completedEvents } = eventsData;
   
   return (
     <div className="space-y-8">
@@ -137,9 +134,42 @@ const CompletedEvents = () => {
       </div>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {completedEvents.map((event) => (
-          <CompletedEventCard key={event.id} event={event} />
-        ))}
+        <PlaceholderCard text="TO BE" color="green" />
+        <PlaceholderCard text="UPDATED" color="green" />
+        <PlaceholderCard text="SOON" color="green" />
+      </div>
+    </div>
+  )
+}
+
+// Placeholder Card Component
+const PlaceholderCard = ({ text, color }: { text: string; color: 'blue' | 'orange' | 'green' }) => {
+  const colorMap = {
+    blue: {
+      shadow: 'hover:shadow-blue-600/40',
+      border: 'hover:border-blue-500',
+      text: 'from-blue-400 to-blue-700'
+    },
+    orange: {
+      shadow: 'hover:shadow-orange-600/40',
+      border: 'hover:border-orange-500',
+      text: 'from-orange-400 to-orange-700'
+    },
+    green: {
+      shadow: 'hover:shadow-green-600/40',
+      border: 'hover:border-green-500',
+      text: 'from-green-400 to-green-700'
+    }
+  };
+
+  const colors = colorMap[color];
+
+  return (
+    <div className={`min-h-[500px] bg-neutral-900 backdrop-blur-md border border-neutral-800 rounded-3xl p-6 flex flex-col justify-center items-center h-full shadow-xl ${colors.shadow} transition-all duration-300 hover:-translate-y-1 ${colors.border}`}>
+      <div className="text-center">
+        <p className={`text-4xl font-bold bg-gradient-to-r ${colors.text} bg-clip-text text-transparent`}>
+          {text}
+        </p>
       </div>
     </div>
   )
