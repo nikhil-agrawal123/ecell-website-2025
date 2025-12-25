@@ -1,7 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 import Image from 'next/image';
-import { FaLinkedin, FaInstagram, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedin, FaInstagram, FaEnvelope, FaUser } from 'react-icons/fa';
 import teamData from '@/data/TeamMembers.json';
 
 type TeamMember = {
@@ -16,6 +16,19 @@ type TeamData = Record<string, TeamMember[]>;
 
 const typedTeamData = teamData as TeamData;
 const availableYears = Object.keys(typedTeamData).sort((a, b) => b.localeCompare(a)); // latest first
+
+// Helper for icon gradient colors
+const getIconColor = (index: number) => {
+  const colors = [
+    'text-purple-400',
+    'text-pink-500',
+    'text-cyan-400',
+    'text-blue-400',
+    'text-green-400',
+    'text-orange-400',
+  ];
+  return colors[index % colors.length];
+};
 
 const TeamPage = () => {
   const [selectedYear, setSelectedYear] = useState<string>(availableYears[0]);
@@ -74,22 +87,28 @@ const TeamPage = () => {
           >
             {/* Uniform square image container */}
             <div className="relative w-40 h-40 md:w-44 md:h-44 rounded-xl overflow-hidden mb-4">
-              <Image
-                src={member.img}
-                alt={`${member.name} - ${member.role}`}
-                fill
-                sizes="(max-width: 768px) 10rem, 11rem"
-                className="object-cover"
-                priority={index < 6}
-              />
+              {member.img && member.img !== '/team/dumy.png' ? (
+                <Image
+                  src={member.img}
+                  alt={`${member.name} - ${member.role}`}
+                  fill
+                  sizes="(max-width: 768px) 10rem, 11rem"
+                  className="object-cover"
+                  priority={index < 6}
+                />
+              ) : (
+                <div className="w-full h-full bg-gradient-to-br from-neutral-800 via-neutral-900 to-black flex items-center justify-center">
+                  <FaUser className={`text-8xl ${getIconColor(index)}`} />
+                </div>
+              )}
             </div>
             <h2 className="text-xl font-semibold text-white">{member.name}</h2>
             <p className="text-sm text-gray-400 mb-4">{member.role}</p>
             <div className="flex gap-4 mt-auto">
-              <a href={member.linkedin} target="_blank" rel="noopener noreferrer">
+              <a href={member.linkedin || '/member-coming-soon'} target="_blank" rel="noopener noreferrer">
                 <FaLinkedin className="text-blue-500 hover:text-blue-300 text-xl transition-all duration-200" />
               </a>
-              <a href={`mailto:${member.email}`}>
+              <a href={member.email ? `mailto:${member.email}` : '/member-coming-soon'} target="_blank" rel="noopener noreferrer">
                 <FaEnvelope className="text-yellow-300 hover:text-yellow-100 text-xl transition-all duration-200" />
               </a>
             </div>
