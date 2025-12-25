@@ -5,7 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import eventsData from '@/data/PlannedEvents.json'
 
-const page = () => {
+const Page = () => {
   const [activeTab, setActiveTab] = useState('upcoming');
 
   const tabs = [
@@ -73,7 +73,7 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
 
 // Tab Content Components
 const UpcomingEvents = () => {
