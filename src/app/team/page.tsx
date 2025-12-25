@@ -85,14 +85,14 @@ const TeamPage = () => {
             </div>
             <h2 className="text-xl font-semibold text-white">{member.name}</h2>
             <p className="text-sm text-gray-400 mb-4">{member.role}</p>
-            {/* <div className="flex gap-4 mt-auto">
+            <div className="flex gap-4 mt-auto">
               <a href={member.linkedin} target="_blank" rel="noopener noreferrer">
                 <FaLinkedin className="text-blue-500 hover:text-blue-300 text-xl transition-all duration-200" />
               </a>
               <a href={`mailto:${member.email}`}>
                 <FaEnvelope className="text-yellow-300 hover:text-yellow-100 text-xl transition-all duration-200" />
               </a>
-            </div> */}
+            </div>
           </div>
         ))}
       </div>
