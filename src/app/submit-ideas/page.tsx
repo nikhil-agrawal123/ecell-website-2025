@@ -356,7 +356,7 @@ const SubmitIdeasPage = () => {
           {submitStatus === 'success' && (
             <div className="text-center p-4 bg-green-900/20 border border-green-700 rounded-lg">
               <p className="text-green-400 font-semibold">
-                🎉 Your idea has been submitted successfully! We'll review it and get back to you soon.
+                🎉 Your idea has been submitted successfully! We&apos;ll review it and get back to you soon.
               </p>
             </div>
           )}
