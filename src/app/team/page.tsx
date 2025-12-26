@@ -27,7 +27,7 @@ const TeamPage = () => {
       <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-12">
         <div className="w-full lg:w-1/2 flex flex-col gap-6">
           <h1 className="text-4xl md:text-6xl font-extrabold bg-gradient-to-br from-purple-400 via-pink-500 to-red-400 bg-clip-text text-transparent leading-tight drop-shadow-lg">
-            Meet the Team <br /> Behind E-Cell
+            Meet the Team
           </h1>
           <p className="text-lg md:text-xl text-gray-300">
             We are a diverse and passionate group of innovators, hustlers, and dreamers
